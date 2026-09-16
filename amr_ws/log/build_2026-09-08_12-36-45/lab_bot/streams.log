@@ -1,0 +1,62 @@
+[0.021s] Invoking command in '/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/giabao/HDD/HDD/ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot -- -j12 -l12
+[0.062s] Invoked command in '/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/giabao/HDD/HDD/ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot -- -j12 -l12
+[0.072s] Invoking command in '/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/giabao/HDD/HDD/ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot
+[0.079s] -- Install configuration: ""
+[0.080s] -- Execute custom install script
+[0.085s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/Lidar.launch.py
+[0.086s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/bringup.launch.cpython-310.pyc
+[0.086s] -- Symlinking: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/nav_rl.launch.cpython-310.pyc
+[0.096s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/odom_publisher.cpython-310.pyc
+[0.096s] -- Symlinking: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/__pycache__/sim.launch.cpython-310.pyc
+[0.107s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/bringup.launch.py
+[0.108s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/cmd_vel_sender.launch.py
+[0.110s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/mapping.launch.py
+[0.112s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/nav_rl.launch.py
+[0.113s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/odom_publisher.py
+[0.115s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/odom_receive.py
+[0.117s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/sim.launch.py
+[0.119s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/slam.launch.py
+[0.120s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/launch/slam_rl.launch.py
+[0.123s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/lab_params BK1.yaml
+[0.125s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/lab_params.yaml
+[0.127s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/rplidar.yaml
+[0.129s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/slam_localization_params.yaml
+[0.130s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/slam_params_rl.yaml
+[0.131s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/slam_rl_params.yaml
+[0.133s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/config/slam_toolbox.yaml
+[0.136s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.pgm
+[0.138s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/maps/NewLidar_edited.yaml
+[0.139s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/maps/simulation_map_save.pgm
+[0.141s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/maps/simulation_map_save.yaml
+[0.143s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/base.urdf.xacro
+[0.144s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/gazebo.urdf.xacro
+[0.146s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/lab_robot.urdf.xacro
+[0.147s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/macros.urdf.xacro
+[0.148s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/materials.urdf.xacro
+[0.150s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/properties.urdf.xacro
+[0.151s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/sensors.urdf.xacro
+[0.152s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/urdf/wheels.urdf.xacro
+[0.154s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/emty.world
+[0.155s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office.world
+[0.157s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/lab_office_official.world
+[0.158s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/my_worlds/worlds/simulation_map.world
+[0.161s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/rviz/robot.rviz
+[0.162s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/lib/lab_bot/odom_receiver.py
+[0.163s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/lib/lab_bot/cmd_vel_sender.py
+[0.165s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/lib/lab_bot/scan_filter.py
+[0.167s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/ament_index/resource_index/package_run_dependencies/lab_bot
+[0.169s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/ament_index/resource_index/parent_prefix_path/lab_bot
+[0.169s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.sh
+[0.171s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/environment/path.sh
+[0.174s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/environment/path.dsv
+[0.175s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/local_setup.bash
+[0.176s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/local_setup.sh
+[0.177s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/local_setup.zsh
+[0.179s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/local_setup.dsv
+[0.180s] -- Symlinking: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/package.dsv
+[0.190s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/ament_index/resource_index/packages/lab_bot
+[0.192s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig.cmake
+[0.193s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/cmake/lab_botConfig-version.cmake
+[0.194s] -- Up-to-date symlink: /media/giabao/HDD/HDD/DATN/Software/amr_ws/install/lab_bot/share/lab_bot/package.xml
+[0.197s] Invoked command in '/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/giabao/HDD/HDD/ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot

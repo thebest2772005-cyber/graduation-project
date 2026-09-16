@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot">
+
+  <xacro:include filename="properties.urdf.xacro" />
+  <xacro:include filename="materials.urdf.xacro" />
+  <xacro:include filename="macros.urdf.xacro" />
+  
+  <xacro:include filename="base.urdf.xacro" />
+  <xacro:include filename="wheels.urdf.xacro" />
+  <xacro:include filename="sensors.urdf.xacro" />
+  
+  <xacro:include filename="gazebo.urdf.xacro" />
+
+</robot>

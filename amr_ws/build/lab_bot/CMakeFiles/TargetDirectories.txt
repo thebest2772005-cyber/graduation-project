@@ -1,0 +1,9 @@
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/uninstall.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/lab_bot_uninstall.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/test.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/edit_cache.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/rebuild_cache.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/list_install_components.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/install.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/install/local.dir
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/build/lab_bot/CMakeFiles/install/strip.dir

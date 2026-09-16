@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ==================== MACRO BÁNH CHỦ ĐỘNG ==================== -->
+  <xacro:macro name="wheel" params="prefix offset_y">
+    <link name="${prefix}_wheel">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_cylinder mass="${wheel_mass}" radius="${wheel_radius}" length="${wheel_thickness}">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      </xacro:inertial_cylinder>
+    </link>
+
+    <!-- Cố định bánh xe nằm ngay tâm robot -->
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${prefix}_wheel"/>
+      <origin xyz="0.0 ${offset_y} ${wheel_offset_z}" rpy="${-pi/2} 0 0"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+
+    <gazebo reference="${prefix}_wheel">
+      <material>Gazebo/DarkGrey</material>
+      <!-- Ma sát bám đường thực tế cho bánh cao su -->
+      <mu1 value="2.0"/>
+      <mu2 value="2.0"/>
+      <kp value="10000000.0"/>
+      <kd value="1.0"/>
+      <fdir1 value="1 0 0"/>
+      <minDepth>0.001</minDepth>
+    </gazebo>
+  </xacro:macro>
+
+  <!-- GỌI 2 BÁNH CHỦ ĐỘNG  -->
+  <xacro:wheel prefix="left" offset_y="${wheel_offset_y}" />
+  <xacro:wheel prefix="right" offset_y="${-wheel_offset_y}" />
+
+  
+  <!-- ==================== MACRO CASTER WHEEL ==================== -->
+  <xacro:macro name="caster" params="prefix offset_x offset_y">
+    <link name="${prefix}_caster_wheel">
+      <visual>
+        <geometry>
+          <sphere radius="${caster_radius}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <sphere radius="${caster_radius}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_sphere mass="${caster_mass}" radius="${caster_radius}">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      </xacro:inertial_sphere>
+    </link>
+
+    <joint name="${prefix}_caster_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="${prefix}_caster_wheel"/>
+      <origin xyz="${offset_x} ${offset_y} ${caster_offset_z}" rpy="0 0 0"/>
+    </joint>
+
+    <gazebo reference="${prefix}_caster_wheel">
+      <material>Gazebo/Black</material>
+      <!-- Triệt tiêu hoàn toàn ma sát để trượt như trên băng -->
+      <mu1 value="0.0001"/>
+      <mu2 value="0.0001"/>
+      <kp value="1000000.0"/>
+      <kd value="1.0"/>
+      <minDepth>0.001</minDepth>
+    </gazebo>
+  </xacro:macro>
+
+  <!-- 4 BÁNH PHỤ CASTER (2 TRƯỚC, 2 SAU) -->
+  <xacro:caster prefix="front_left" offset_x="${caster_offset_x}" offset_y="${caster_offset_y}" />
+  <xacro:caster prefix="front_right" offset_x="${caster_offset_x}" offset_y="${-caster_offset_y}" />
+  <xacro:caster prefix="rear_left" offset_x="${-caster_offset_x}" offset_y="${caster_offset_y}" />
+  <xacro:caster prefix="rear_right" offset_x="${-caster_offset_x}" offset_y="${-caster_offset_y}" />
+
+</robot>

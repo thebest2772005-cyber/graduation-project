@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <!-- Mặt trời / Ánh sáng -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Mặt sàn chuẩn phẳng -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+  </world>
+</sdf>

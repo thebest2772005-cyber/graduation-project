@@ -1,0 +1,1 @@
+/media/giabao/HDD/HDD/DATN/Software/amr_ws/src/lab_bot/scripts/scan_filter.py
